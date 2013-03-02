@@ -1,16 +1,16 @@
 Summary:	Mesa Demos source code
 Name:		Mesa-demos
-Version:	8.0.1
-Release:	3
+Version:	8.1.0
+Release:	1
 License:	various (MIT, SGI, GPL - see copyright notes in sources)
 Group:		Development/Libraries
 Source0:	ftp://ftp.freedesktop.org/pub/mesa/demos/%{version}/mesa-demos-%{version}.tar.bz2
-# Source0-md5:	320c2a4b6edc6faba35d9cb1e2a30bf4
+# Source0-md5:	9df33ba69a26bbfbc7c8148602e59542
 URL:		http://www.mesa3d.org/
 BuildRequires:	OpenGL-GLU-devel
 BuildRequires:	OpenGL-devel
 BuildRequires:	OpenGL-glut-devel
-BuildRequires:	glew-devel
+BuildRequires:	pkgconfig(glew)
 BuildRequires:	pkg-config
 BuildRequires:	rpm-pythonprov
 BuildRequires:	xorg-libX11-devel
